@@ -450,8 +450,18 @@ Feel free to use the dataset for:
 
 ---
 
+You can use this dataset to practice SQL, Python, Excel
+
+---
+
 ## 📜 License
 
 This project is intended for educational and practice purposes.
 
 See the [`LICENSE`](LICENSE) file for usage terms.
+
+---
+
+## 📌 Note
+
+This is a *synthetic dataset created for educational and practice purposes. It does not contain real customer or business data.*
