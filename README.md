@@ -435,6 +435,8 @@ You can then combine the tables using `merge()` and perform exploratory analysis
 
 Import the Excel tables into a SQL database such as **SQL Server**, PostgreSQL, MySQL, or another relational database.
 
+Once the tables are imported, you can practice SQL queries using the relationships between the fact and dimension tables.
+
 For example:
 
 ```sql
