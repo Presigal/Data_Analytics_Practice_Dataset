@@ -58,7 +58,7 @@ The dataset follows a **Star Schema**:
                             │ 1 : *
                             │
 ┌─────────────────┐   ┌─────▼─────────┐   ┌─────────────────┐
-│   DimProduct   │───│   FactSales   │───│  DimCustomer    │
+│   DimProduct    │───│   FactSales   │───│  DimCustomer    │
 └─────────────────┘   └─────▲─────────┘   └─────────────────┘
                             │
                             │ 1 : *
