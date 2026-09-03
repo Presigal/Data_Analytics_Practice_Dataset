@@ -421,18 +421,6 @@ Suggested dashboard sections:
 
 ---
 
-# 📁 Repository Structure
-
-```text
-Power-BI-DAX-Practice-Dataset/
-│
-├── Power_BI_DAX_Practice_Dataset.xlsx
-├── README.md
-├── LICENSE
-```
-
----
-
 # 👨‍💻 Who Is This For?
 
 This dataset is suitable for:
