@@ -1,0 +1,51 @@
+Difficulty,QuestionNo,Question
+BEGINNER,1,Create a measure for total SalesAmount using SUM.
+BEGINNER,2,Create a measure for total CostAmount using SUM.
+BEGINNER,3,Create a measure for total Quantity sold.
+BEGINNER,4,Count the number of sales transactions using COUNT on SaleID.
+BEGINNER,5,Count the number of transaction rows using COUNTROWS.
+BEGINNER,6,Count the number of unique customers who made a purchase.
+BEGINNER,7,Calculate the average UnitPrice across all transaction rows.
+BEGINNER,8,Calculate average Quantity per transaction using AVERAGE.
+BEGINNER,9,Calculate total Profit as SalesAmount minus CostAmount.
+BEGINNER,10,Calculate Profit Margin % using DIVIDE.
+BEGINNER,11,Create Average Sales per Transaction.
+BEGINNER,12,Create Average Sales per Customer.
+BEGINNER,13,Create a measure for total discount value: Quantity × UnitPrice × DiscountPct.
+BEGINNER,14,Calculate sales per unit using total SalesAmount divided by total Quantity.
+INTERMEDIATE,15,Return the distinct list of product categories with VALUES.
+INTERMEDIATE,16,Count distinct products appearing in the current filter context.
+INTERMEDIATE,17,Calculate total sales only for the Electronics category using CALCULATE.
+INTERMEDIATE,18,Calculate total sales for Corporate customers using CALCULATE.
+INTERMEDIATE,19,Calculate sales for the South region using CALCULATE.
+INTERMEDIATE,20,Use FILTER inside CALCULATE to return sales for transactions with Quantity >= 3.
+INTERMEDIATE,21,"Create a measure using SELECTEDVALUE to display the selected Region, with a fallback when multiple regions are selected."
+INTERMEDIATE,22,Use HASONEVALUE to return a result only when exactly one Category is selected.
+INTERMEDIATE,23,Calculate total sales while removing the Product filter using REMOVEFILTERS.
+INTERMEDIATE,24,Calculate each product's sales as a percentage of all product sales using ALL.
+INTERMEDIATE,25,Calculate sales while keeping the selected Store but removing other filters from DimStore using ALLEXCEPT.
+INTERMEDIATE,26,Calculate sales for Electronics while preserving any existing filters using KEEPFILTERS.
+INTERMEDIATE,27,Use RANKX to rank products by total sales within the current report context.
+INTERMEDIATE,28,Use TOPN to return the top 5 products by total sales.
+INTERMEDIATE,29,Use VALUES to calculate average sales per currently selected customer.
+INTERMEDIATE,30,Use DISTINCT to create a virtual list of CustomerKey values and count it.
+INTERMEDIATE,31,Use RELATED in a calculated column in FactSales to bring Product Category into the fact table.
+INTERMEDIATE,32,Use RELATEDTABLE in a calculated column or measure pattern to count sales rows related to the current product.
+INTERMEDIATE,33,Use ISFILTERED to detect whether Region is directly filtered and return TRUE/FALSE or a readable label.
+INTERMEDIATE,34,Create a measure that returns the selected CustomerSegment only when one segment is selected.
+ADVANCED,35,Create Sales MTD using a date-based MTD calculation over DimDate.
+ADVANCED,36,Create Sales YTD using TOTALYTD.
+ADVANCED,37,Create Sales YTD using DATESYTD and CALCULATE.
+ADVANCED,38,Calculate previous-year sales using SAMEPERIODLASTYEAR.
+ADVANCED,39,Calculate previous-period sales using DATEADD with a -1 year shift.
+ADVANCED,40,Calculate YoY Sales as current-year sales minus previous-year sales.
+ADVANCED,41,Calculate YoY % using DIVIDE and the previous-year measure.
+ADVANCED,42,Calculate each product's sales as a percentage of total sales while respecting the selected date range.
+ADVANCED,43,Calculate each product's sales as a percentage of its category total.
+ADVANCED,44,Use SUMX over VALUES(ProductKey) to calculate total sales from product-level virtual context.
+ADVANCED,45,Use AVERAGEX over VALUES(CustomerKey) to calculate average customer sales.
+ADVANCED,46,Use FILTER inside CALCULATE to calculate sales only for transactions above the average transaction sales.
+ADVANCED,47,"Create a dynamic metric selector using SWITCH that can return Sales, Profit, Quantity, or Transactions based on a disconnected selection table."
+ADVANCED,48,"Create a virtual table containing ProductKey, Sales, and Rank, then return the top 10 products from that virtual table."
+ADVANCED,49,"Create a virtual customer table with CustomerKey and total sales, then calculate the average sales of customers whose sales exceed ₹50,000."
+ADVANCED,50,"Solve a filter-context problem: calculate a product's sales share of its category while still respecting Year, Region, and CustomerSegment filters."

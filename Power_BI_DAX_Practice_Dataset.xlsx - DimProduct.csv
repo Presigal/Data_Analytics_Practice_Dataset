@@ -1,0 +1,21 @@
+ProductKey,ProductName,Category,SubCategory,Brand
+1,Wireless Headphones,Electronics,Audio,SoundMax
+2,Bluetooth Speaker,Electronics,Audio,SoundMax
+3,Smartphone,Electronics,Mobile,NovaTech
+4,Tablet,Electronics,Mobile,NovaTech
+5,Laptop,Electronics,Computing,BytePro
+6,24-inch Monitor,Electronics,Computing,ViewPlus
+7,Mechanical Keyboard,Electronics,Accessories,KeyCraft
+8,Ergonomic Mouse,Electronics,Accessories,KeyCraft
+9,Office Chair,Furniture,Seating,ComfortWorks
+10,Study Desk,Furniture,Desks,HomeSpace
+11,Bookshelf,Furniture,Storage,HomeSpace
+12,Filing Cabinet,Furniture,Storage,OfficePro
+13,Refrigerator,Appliances,Kitchen,CoolHome
+14,Microwave Oven,Appliances,Kitchen,HeatWave
+15,Air Fryer,Appliances,Kitchen,HeatWave
+16,Washing Machine,Appliances,Laundry,WashWell
+17,Vacuum Cleaner,Appliances,Cleaning,CleanPro
+18,Air Purifier,Appliances,Home Comfort,PureAir
+19,Water Purifier,Appliances,Water,PureFlow
+20,Electric Kettle,Appliances,Kitchen,HeatWave

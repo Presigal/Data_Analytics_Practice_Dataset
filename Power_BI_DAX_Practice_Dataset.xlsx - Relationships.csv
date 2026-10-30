@@ -1,0 +1,5 @@
+From (1-side),To (*-side),Cardinality,One-side table,Many-side table,Cross-filter direction
+DimDate[DateKey],FactSales[DateKey],1:*,DimDate,FactSales,Single
+DimProduct[ProductKey],FactSales[ProductKey],1:*,DimProduct,FactSales,Single
+DimCustomer[CustomerKey],FactSales[CustomerKey],1:*,DimCustomer,FactSales,Single
+DimStore[StoreKey],FactSales[StoreKey],1:*,DimStore,FactSales,Single

@@ -1,0 +1,15 @@
+Table,What it represents
+FactSales,"Transaction-level sales fact table. Each row represents one completed sales transaction for one product, customer, store and date."
+DimDate,Calendar dimension used for date slicing and time-intelligence calculations.
+DimProduct,"Product master dimension containing product attributes such as category, subcategory and brand."
+DimCustomer,"Customer master dimension containing demographic, geography and customer-segment attributes."
+DimStore,"Store master dimension containing store, city, state and region attributes."
+FactSales grain,One row = one sales transaction (SaleID).
+Primary keys,FactSales: SaleID; DimDate: DateKey; DimProduct: ProductKey; DimCustomer: CustomerKey; DimStore: StoreKey.
+Foreign keys,"FactSales.DateKey, FactSales.ProductKey, FactSales.CustomerKey and FactSales.StoreKey reference the corresponding dimension keys."
+Power BI relationships,Create four 1:* relationships from each dimension key to the matching FactSales foreign key.
+Filter direction,Use Single cross-filter direction from each dimension (1 side) to FactSales (many side).
+Date table,"In Power BI, select DimDate and choose Table tools → Mark as date table, using DimDate[Date]."
+DateKey note,DateKey is an integer YYYYMMDD key and should be related to FactSales[DateKey]. The actual DimDate[Date] column should be used for time-intelligence functions.
+Recommended model,Use a star schema: dimensions around FactSales; avoid bidirectional relationships unless a specific modeling requirement justifies them.
+Practice tip,Create measures rather than calculated columns for most DAX practice questions so you can observe filter context changes in visuals.

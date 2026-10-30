@@ -1,0 +1,31 @@
+Function,Category,Difficulty,What it is used for,Relevant practice question numbers
+SUM,Aggregation,Beginner,Adds numeric column values.,"1, 2, 3"
+SUMX,Iterator,Advanced,Iterates a table and evaluates an expression row by row.,44
+AVERAGE,Aggregation,Beginner,Returns the arithmetic mean of a numeric column.,"7, 8"
+AVERAGEX,Iterator,Advanced,Averages an expression evaluated over a table.,45
+COUNT,Aggregation,Beginner,Counts non-blank numeric values.,4
+COUNTROWS,Aggregation,Beginner,Counts rows in a table.,5
+DISTINCTCOUNT,Aggregation,Beginner,Counts unique values in a column.,"6, 16"
+VALUES,Table/Context,Intermediate,"Returns distinct values, respecting filter context.","15, 29, 44, 45"
+DISTINCT,Table,Intermediate,Returns a distinct list from a column/table expression.,30
+FILTER,Table/Context,Intermediate,Returns a filtered table expression.,"20, 46"
+CALCULATE,Filter Context,Intermediate,Evaluates an expression under modified filter context.,"17, 18, 19, 20, 23, 25, 26, 35, 37, 38, 39, 42, 43, 46, 50"
+ALL,Filter Context,Intermediate,Removes filters from a table or column.,"24, 42"
+ALLEXCEPT,Filter Context,Intermediate,Removes filters except specified columns.,25
+ALLSELECTED,Filter Context,Advanced,Keeps external/visual filters while changing inner context.,"42, 50"
+REMOVEFILTERS,Filter Context,Intermediate,Explicitly removes filters.,23
+KEEPFILTERS,Filter Context,Intermediate,Adds filters without replacing existing filters.,26
+RELATED,Relationships,Intermediate,Retrieves a related value from the one-side table.,31
+RELATEDTABLE,Relationships,Intermediate,Returns rows related to the current row/context.,32
+SELECTEDVALUE,Filter Context,Intermediate,"Returns a single selected value, otherwise an alternate result.","21, 34"
+HASONEVALUE,Filter Context,Intermediate,Checks whether a column has exactly one distinct value.,22
+ISFILTERED,Filter Context,Intermediate,Checks whether a column/table is directly filtered.,33
+IF,Logical,Intermediate,Returns one result when a condition is true and another when false.,"22, 33"
+SWITCH,Logical,Advanced,"Evaluates multiple conditional branches, useful for dynamic measures.",47
+DIVIDE,Math,Beginner,Safely divides two expressions and handles zero/blank denominators.,"10, 11, 14, 41, 42, 43"
+RANKX,Ranking,Intermediate,Ranks items based on an expression.,"27, 48"
+TOPN,Ranking,Intermediate,Returns the top N rows of a table based on an expression.,"28, 48"
+DATEADD,Time Intelligence,Advanced,Shifts a date context by a specified interval.,39
+SAMEPERIODLASTYEAR,Time Intelligence,Advanced,Returns the equivalent period one year earlier.,38
+TOTALYTD,Time Intelligence,Advanced,Calculates year-to-date totals.,36
+DATESYTD,Time Intelligence,Advanced,Returns dates from the start of the year through the current context.,37
